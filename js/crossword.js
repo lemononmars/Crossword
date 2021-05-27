@@ -32,10 +32,10 @@
 				{
 					clue: "เก็บเงินซ่อนไว้ในเอื้อม",
 					answer: "ออม",
-					position: 6,
+					position: 5,
 					orientation: "down",
 					startx: 1,
-					starty: 4
+					starty: 3
 				},
 				{
 					clue: "ไฟเด็กดับตอนแสดง",

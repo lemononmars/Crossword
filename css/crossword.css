@@ -60,7 +60,7 @@ input.done {
 }
 
 #puzzle-wrapper {
-    font: 200%/1.3em Impact, Leelawadee UI !important;
+    font: 75%/1.3em Impact, Leelawadee UI !important;
     margin: 10px auto !important;
 
     float: left !important;
@@ -69,7 +69,7 @@ input.done {
     margin-left: 10px !important;
 }
 #puzzle-clues {
-    font: 100%/1.3em Impact, Leelawadee UI !important;
+    font: 62.5%/1.3em Impact, Leelawadee UI !important;
     margin: 10px auto;
 
     float: left;

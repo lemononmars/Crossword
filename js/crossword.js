@@ -54,7 +54,7 @@
 					starty: 2
 				},
 				{
-					clue: "น้องพ่อแบ่งของกิน",
+					clue: "น้องพ่อขอแบ่งของกิน",
 					answer: "อาหาร",
 					position: 5,
 					orientation: "across",

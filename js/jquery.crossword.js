@@ -307,24 +307,23 @@
 					
 					currOri === 'across' ? nav.nextPrevNav(e, 39) : nav.nextPrevNav(e, 40);
 					
-						// ADDED! check the solved array against the original puzzle data entries
-						var uniqSolved  = _.uniq(solved);
-						console.log(uniqSolved);
-						var numMatches = 0;
-						var numMatchedAll = 0;
-						for(var i=0; i < puzz.data.length; i++) {		// look through all entries
-							numMatchedAll++;
-							for(var a=0; a < solved.length; a++) {
-								var puzzItem = puzz.data[i];
-								var puzzAnswer = uniqSolved[a];
-								if(puzzAnswer === puzzItem.answer) {
-									numMatches++;
-								}
+					// ADDED! check the solved array against the original puzzle data entries
+					var uniqSolved  = _.uniq(solved);
+					var numMatches = 0;
+					var numMatchedAll = 0;
+					for(var i=0; i < puzz.data.length; i++) {		// look through all entries
+						numMatchedAll++;
+						for(var a=0; a < solved.length; a++) {
+							var puzzItem = puzz.data[i];
+							var puzzAnswer = uniqSolved[a];
+							if(puzzAnswer === puzzItem.answer) {
+								numMatches++;
 							}
-						};
-						if(numMatches === numMatchedAll) {
-							window.alert("puzzle solved!!!!!!!");
 						}
+					};
+					if(numMatches === numMatchedAll) {
+						window.alert("เสร็จแล้ว! เก่งมาก!");
+					}
 				}				
 
 
